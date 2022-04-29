@@ -1,0 +1,40 @@
+POST http://localhost:8080/login
+Content-Type: application/json
+
+{
+    "username": "admin",
+    "password": "@AfwAf33g@"
+}
+###
+POST http://localhost:8080/login
+Content-Type: application/json
+
+{
+    "email": "afshrafff@gmail.com",
+    "password": "ddS3vkedf@"
+}
+###
+POST http://localhost:8080/register
+Content-Type: application/json
+
+{
+    "fullname": "new user",
+    "email": "afshrafff@gmail.com",
+    "password": "ddS3vkedf@",
+    "image": "random/image/path.jpg"
+}
+
+###
+POST http://localhost:8080/child
+Content-Type: application/json
+
+{
+    "fullname": "new user",
+    "level": "PreKG",
+    "age": 24,
+    "address": {
+        "city": "damitta",
+        "street": "oraby street",
+        "building": 5
+    }
+}

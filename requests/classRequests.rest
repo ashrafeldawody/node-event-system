@@ -1,0 +1,15 @@
+GET http://localhost:8080/class
+
+###
+POST http://localhost:8080/class
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyNTgwYjdjMjA1YWZmZGQ4ODAxNzU2MiIsImlzQWRtaW4iOnRydWUsImlhdCI6MTY0OTkzNzM4MCwiZXhwIjoxNjUwMDIzNzgwfQ.SgzI4nkdcNZCAF5wwFEn69yk0tANpPk6Zf3QDm0937s
+
+{
+    "name": "class 1",
+    "supervisor": "62580b7c205affdd88017562",
+    "children": [
+        1,
+        2
+    ]
+}

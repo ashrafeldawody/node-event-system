@@ -1,0 +1,32 @@
+GET http://localhost:8080/child
+###
+POST http://localhost:8080/child
+Content-Type: application/json
+
+{
+    "fullname": "Ahmed mohamed salah",
+    "age": 15,
+    "level": "KG1",
+    "address": {
+        "city": "damitta",
+        "street": "oraby street",
+        "building": 5
+    }
+}
+###
+PUT http://localhost:8080/child/1
+Content-Type: application/json
+
+{
+    "fullname": "hamada mohamed salah",
+    "age": 12,
+    "level": "KG2",
+    "address": {
+        "city": "damitta",
+        "street": "oraby street",
+        "building": 5
+    }
+}
+
+###
+DELETE http://localhost:8080/child/1
